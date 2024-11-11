@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+.nav ,ul,li{
+    display:flex ;
+    justify-content: end;
+    justify-content: center;
+      gap: 30px;
+    align-items:center;
+    
+}
+hr{
+    background-color: gray;
+    height: 1px;
+
+}
+.features .h1{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color:gray;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.features{
+    flex: 1 1 0%;
+}
+.footer_div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    padding: 0;
+}
+
+.footer{
+    text-align: center;
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
